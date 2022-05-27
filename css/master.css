@@ -1,0 +1,350 @@
+body, html {
+	  height: 100%;
+	  margin: 0;
+	}
+
+	.sidebar {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 2;
+	  top: 0;
+	  left: 0;
+	  background-image: linear-gradient(to right bottom, lightblue, black);
+	  overflow-x: hidden;
+	  padding-top: 60px;
+	  transition: 1s;
+	}
+
+
+
+	.sidebar a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+	.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+	z-index: 1;
+}
+
+	.active {
+  background-color: green;
+  color: red;
+}
+
+	.dropdown-container {
+	  display: none;
+	  background-color: red;
+	  padding-left: 8px;
+	}
+
+	.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.video{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	display: block;
+	transition: 0.3s;
+	}
+
+
+	.sidebar a:hover {
+	  color: #f1f1f1;
+	}
+
+
+
+
+	.sidebar .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+
+
+	.openbtn {
+	  font-size: 20px;
+	  cursor: pointer;
+	 background-image: linear-gradient(to right bottom, lightblue, black);
+		text-align: left;
+		position: fixed;
+	  color: white;
+	  padding: 10px 15px;
+	  border: none;
+		z-index: 1;
+	}
+
+	.openbtn:hover {
+	  background-color: #444;
+	}
+
+
+	@media screen and (max-height: 450px) {
+	  .sidebar {padding-top: 15px;}
+	  .sidebar a {font-size: 18px;}
+	}
+
+
+.image1{
+	    background: url(../img/game.jpg)no-repeat center center fixed;
+	    background-size: cover;
+	    margin: 0px;
+			height: 100%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-direction: column;
+	}
+
+
+
+.image2{
+	background: url(../img/doll.jpg)no-repeat center center fixed;
+	background-size: cover;
+	margin: 0px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    	}
+
+.image3{
+	background: url(../img/clay.jpg) no-repeat center center fixed;
+		background-size: cover;
+	margin: 0px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  	}
+
+.image4{
+	background: url(../img/gijeff.jpg) no-repeat center center fixed;
+	height: 100%;
+	background-size: cover;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  	}
+
+.tekstvakplot{
+	height: 50%;
+	width: 50%;
+	font-size: 18px;
+	color: white;
+	background-color: #00000099;
+	text-align: center;
+	opacity: inherit;
+	padding: 2%;
+}
+.tekstvaksource{
+	height: 50%;
+	width: 30%;
+	font-size: 18px;
+	background-color: #00000099;
+	text-align: center;
+	opacity: inherit;
+	padding: 2%;
+}
+.tekstvaksource, a{
+	color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 1250px){
+	.tekstvakplot{
+		width: 60%;
+		height: 60%;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.tekstvakplot{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.tekstvakplot{
+		width: 90%;
+		height: 70%;
+
+	}
+}
+
+@media screen and (max-width: 620px){
+	.tekstvakplot{
+		font-size: 17px;
+
+	}
+	.tekstvaksource{
+		width: 50%;
+		height: 50%;
+	}
+}
+
+@media screen and (max-width: 620px){
+	.tekstvakplot{
+		font-size: 17px;
+		height: 90%;
+
+	}
+}
+
+@media screen and (max-width: 420px){
+	.tekstvakplot{
+		font-size: 16px;
+		;
+
+	}
+}
+
+.tekstvakvideo{
+	height: 50%;
+	width: 50%;
+	font-size: 18px;
+	color: white;
+	background-color: #00000099;
+	text-align: center;
+	opacity: inherit;
+	padding: 2%;
+}
+
+@media screen and (max-width: 800px){
+	.tekstvakvideo{
+		width: 80%;
+		height: 60%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.tekstvakvideo{
+		width: 80%;
+		height: 50%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.tekstvakvideo{
+		width: 90%;
+		height: 40%;
+	}
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+
+
+.smCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+
+}
+
+.smCard {
+    flex-shrink: 1;
+    width: 48%;
+    height: 20%;
+		margin: 2px;
+    transition: all 0.5s;
+		}
+
+		.tekstvaksm{
+			height: 55%;
+			width: 50%;
+			font-size: 18px;
+			color: white;
+			background-color: #00000099;
+			text-align: center;
+			opacity: inherit;
+			padding: 2%;
+		}
+
+@media screen and (max-width: 1200px){
+	.tekstvaksm{
+		width: 60%;
+		height: 60%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.tekstvaksm{
+		width: 80%;
+		height: 60%;
+	}
+}
+
+@media screen and (max-width: 670px){
+	.tekstvaksm{
+		width: 80%;
+		height: 65%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.tekstvaksm{
+		width: 80%;
+		height: 70%;
+
+	}
+}
